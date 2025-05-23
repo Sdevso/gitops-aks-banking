@@ -1,0 +1,8 @@
+# Placeholder patch file for the dev environment
+# Add specific patches here if needed
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: banking-app
+spec:
+  replicas: 2 # Increase replicas for the dev environment

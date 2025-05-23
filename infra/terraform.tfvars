@@ -1,0 +1,9 @@
+resource_group_name = "aks-banking-rg"
+location            = "East US"
+aks_cluster_name    = "aks-banking-cluster"
+node_count          = 3
+node_vm_size        = "Standard_DS2_v2"
+dns_prefix          = "aksbanking"
+client_id           = "your-client-id"
+client_secret       = "your-client-secret"
+service_principal   = "your-service-principal"
